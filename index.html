@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/6f620836b4.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1 class="head-money">Money Master</h1>
+        </div>
+
+        <div>
+            <i class="fa-sharp fa-solid fa-sack-dollar money-bag"></i>
+        </div>
+    </header>
+    <main>
+        <section class="main">
+            <div>
+                <img class="calc" src="./images/Calculators-1.jpg" alt="">
+            </div>
+            <div class="counter">
+                <div>
+                    <h1 class="income-text">Income</h1>
+                </div>
+                <div class="input-field">
+                    <h3>Income:</h3>
+                    <input id="income-field" class="input" type="number" name="" id="" placeholder="">
+                </div>
+                <div>
+                    <h1 class="income-text">Expenses</h1>
+                </div>
+                <div class="input-field">
+                    <h3>Food:</h3>
+                    <input id="food-field" class="input" type="number" name="" id="">
+                </div>
+                <div class="input-field">
+                    <h3>Rent:</h3>
+                    <input id="rent-field" class="input" type="number" name="" id="">
+                </div>
+                <div class="input-field">
+                    <h3>Clothes:</h3>
+                    <input id="clothes-field" class="input" type="number" name="" id="">
+                </div>
+                <button id="btn-calc" class="btn-calc">Calculate</button>
+
+                <div>
+                    <h1 class="income-text">Total Expenses: <span id="total-expense">00</span></h1>
+                    <h1 class="income-text">Balance: <span id="balance">00</span></h1>
+                </div>
+                <div class="save">
+                    <h3>Save:</h3>
+                    <input id="save-field" class="save-input" type="number" value="">
+                    <h3>%</h3>
+                    <button id="btn-save" class="btn-calc-new">Save</button>
+                </div>
+                <div>
+                    <h1 class="income-text">Saving Amount: <span id="save-amount">00</span></h1>
+                    <h1 class="income-text">Remaining Balance: <span id="remain-amount">00</span> </h1>
+                
+            </div>
+
+        </section>
+    </main>
+    <script src="./js/app.js"></script>
+</body>
+</html>
